@@ -32,20 +32,19 @@ namespace PDFEncrypt
 			InitializeComponent();
 		}
 
+		private string GetFilenameWithSuffix(string file, string suffix = "-encrypted")
+		{
+			var newFileName = $"{System.IO.Path.GetFileNameWithoutExtension(file)}{suffix}.pdf";
+			return System.IO.Path.Combine(System.IO.Path.GetDirectoryName(file), newFileName);
+		}
+
 		private void btnInputBrowse_Click(object sender, EventArgs e)
 		{
 			DialogResult result = dlgOpen.ShowDialog();
 			if (result == DialogResult.Cancel) { return; }
 
 			txtInputFile.Text = dlgOpen.FileName;
-
-			// Generate output filename matching input with "-encrypted" if none is specified.
-			if (txtOutputFile.Text == "")
-			{
-				txtOutputFile.Text = System.IO.Path.GetDirectoryName(txtInputFile.Text) + "\\";
-				txtOutputFile.Text += System.IO.Path.GetFileNameWithoutExtension(txtInputFile.Text);
-				txtOutputFile.Text += "-encrypted.pdf";	
-			}
+			txtOutputFile.Text = GetFilenameWithSuffix(dlgOpen.FileName);
 		}
 
 		private void btnOutputBrowse_Click(object sender, EventArgs e)
