@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>logo.ico</ApplicationIcon>
+    <ApplicationIcon>logo2.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <SignManifests>false</SignManifests>
@@ -161,6 +161,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="logo.ico" />
+    <Content Include="logo2.ico" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">

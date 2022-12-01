@@ -24,8 +24,9 @@ namespace PDFEncrypt
 	{
 		const int PW_LENGTH_MIN = 12;	// Minimum generated password length
 		const int PW_LENGTH_MAX = 24;   // Maximum generated password length
-		const string PW_CHARS = "abcdefghijkmnpqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ23456789";	// List of characters to be used in random passwords
+		const string PW_CHARS = "abcdefghijkmnpqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ23456789"; // List of characters to be used in random passwords
 
+		private string owner_password = "";	// The owner password, if any.
 
 		public frmMain()
 		{
@@ -112,6 +113,9 @@ namespace PDFEncrypt
 			// Hide Copied label
 			lblCopied.Visible = false;
 
+			// Show Password Length warning if exceeding 32 chars.
+			lblPasswordLength.Visible = txtPassword.Text.Length > 32;
+
 		}
 
 		private void txtPassword_KeyDown(object sender, KeyEventArgs e)
@@ -168,8 +172,9 @@ namespace PDFEncrypt
 			if (Settings.password_confirm)
 			{
 				var input = new frmInputBox();
-				input.prompt = "Please retype the password to confirm.";
-				input.title = "Confirm password";
+				input.prompt = "Please retype the User password to confirm.";
+				input.title = "Confirm User Password";
+				input.password = true;
 				input.ShowDialog();	// Modal, blocking call
 
 				if (input.cancelled) { return;  }
@@ -177,9 +182,23 @@ namespace PDFEncrypt
 				// If password doesn't match, stop.
 				if (input.result != txtPassword.Text)
 				{
-					MessageBox.Show("Password does not match. Please retry.");
+					MessageBox.Show("User password does not match. Please retry.");
 					return;
 				}
+
+				if (owner_password != "")
+                {
+					input.prompt = "An Owner password has been set. Please confirm Owner password.";
+					input.title = "Confirm Owner Password";
+					input.password = true;
+					input.ShowDialog();
+					if (input.cancelled) { return; }
+					if (input.result != owner_password)
+                    {
+						MessageBox.Show("Owner password does not match. Please retry.");
+						return;
+                    }
+                }
 			}
 
 			// See https://itextpdf.com/en/resources/faq/technical-support/itext-7/how-protect-already-existing-pdf-password
@@ -212,7 +231,8 @@ namespace PDFEncrypt
 
 				PdfReader reader = new PdfReader(txtInputFile.Text);	// Create a PdfReader with the input file.
 				WriterProperties prop = new WriterProperties();	// Set properties of output
-				prop.SetStandardEncryption(Encoding.ASCII.GetBytes(txtPassword.Text), null, document_options, encryption_properties);  // Enable encryption
+	
+				prop.SetStandardEncryption(Encoding.ASCII.GetBytes(txtPassword.Text), owner_password == "" ? null : Encoding.ASCII.GetBytes(owner_password), document_options, encryption_properties);  // Enable encryption
 				// Setting Owner Password to null generates random password.
 
 				PdfWriter writer = new PdfWriter(txtOutputFile.Text, prop);	// Set up the output file
@@ -261,5 +281,23 @@ namespace PDFEncrypt
 			var settings = new frmSettings();
 			settings.ShowDialog();
 		}
-	}
+
+        private void lnkPasswordOwner_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+			var input = new frmInputBox();
+			input.title = "Set Owner Password";
+			input.prompt = "Specify Owner password.\r\n(Owner password allows the viewer to bypass all permissions and gain full control of the PDF file.)\r\nIf no Owner password is specified, a random one will be generated.\r\n Click Cancel to clear existing Owner password.";
+			input.password = true;
+			input.ShowDialog();
+			if (input.cancelled)
+			{
+				owner_password = "";
+			}
+			else
+			{
+				owner_password = input.result;
+			}
+			lblOwnerPasswordSet.Visible = (owner_password != "");
+        }
+    }
 }

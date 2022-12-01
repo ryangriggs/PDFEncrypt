@@ -15,6 +15,8 @@ namespace PDFEncrypt
 		public string result;   // The result of the input box action.
 		public string prompt;   // Prompt to be displayed.
 		public string title;    // Title of box
+		public bool password;	// Is the input a password?
+
 		public bool cancelled;
 		public frmInputBox()
 		{
@@ -23,8 +25,7 @@ namespace PDFEncrypt
 
 		private void frmInputBox_Load(object sender, EventArgs e)
 		{
-			lblPrompt.Text = prompt;
-			this.Text = title;
+			
 			
 		}
 
@@ -45,6 +46,10 @@ namespace PDFEncrypt
 		private void frmInputBox_Shown(object sender, EventArgs e)
 		{
 			txtInput.Focus();
+			txtInput.Text = ""; // Clear input on load.
+			lblPrompt.Text = prompt;
+			this.Text = title;
+			txtInput.PasswordChar = (password) ? '*' : (char)0;
 		}
 	}
 }
