@@ -259,7 +259,15 @@ namespace PDFEncrypt
 			if (Settings.run_after)
 			{
 				// Attempt to run the program, passing the newly encrypted filename.
-				Process.Start(Settings.run_after_file, txtOutputFile.Text);
+				try
+				{
+					Process.Start(Settings.run_after_file, Settings.run_after_arguments + " " + txtOutputFile.Text);
+				}
+				catch (Exception ex)
+                {
+					MessageBox.Show("Unable to run command.  Error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
 			}
 
 			// If opening the output file:

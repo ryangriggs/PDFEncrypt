@@ -44,6 +44,7 @@ namespace PDFEncrypt
 			// Populate settings to form controls
 			chkRun.Checked = Settings.run_after;
 			txtRun.Text = Settings.run_after_file;
+			txtArguments.Text = Settings.run_after_arguments;
 			chkPasswordConfirmation.Checked = Settings.password_confirm;
 			chkCloseAfterCompletion.Checked = Settings.close_after;
 			chkShowFolder.Checked = Settings.show_folder_after;
@@ -78,23 +79,24 @@ namespace PDFEncrypt
 
 		private void btnOK_Click(object sender, EventArgs e)
 		{
-			// Save settings
+            // Save settings
 
-			// Validate RUN file
-			if (chkRun.Checked)
-			{
-				if (!File.Exists(txtRun.Text))
-				{
-					MessageBox.Show("The file to run does not exist.");
-					txtRun.Focus();
-					txtRun.SelectAll();
-					return;
-				}
-			}
+            // Validate RUN file
+            if (chkRun.Checked)
+            {
+                if (!File.Exists(txtRun.Text))
+                {
+                    MessageBox.Show("The file to run does not exist.");
+                    txtRun.Focus();
+                    txtRun.SelectAll();
+                    return;
+                }
+            }
 
-			// Save settings
-			Settings.run_after = chkRun.Checked;
+            // Save settings
+            Settings.run_after = chkRun.Checked;
 			Settings.run_after_file = txtRun.Text;
+			Settings.run_after_arguments = txtArguments.Text;
 			Settings.password_confirm = chkPasswordConfirmation.Checked;
 			Settings.close_after = chkCloseAfterCompletion.Checked;
 			Settings.show_folder_after = chkShowFolder.Checked;
@@ -128,6 +130,14 @@ namespace PDFEncrypt
 			System.Diagnostics.Process.Start("https://pdfencrypt.net");
 		}
 
+        private void chkRun_CheckedChanged_1(object sender, EventArgs e)
+        {
 
+        }
+
+        private void linkDonate_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+			System.Diagnostics.Process.Start("https://www.paypal.com/donate?hosted_button_id=KBE8SENS5JCSG");
+        }
     }
 }

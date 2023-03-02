@@ -20,6 +20,7 @@ namespace PDFEncrypt
 
 		public static bool run_after;  // Run program after encrypting?
 		public static string run_after_file;   // File to run after encrypting
+		public static string run_after_arguments;	// Arguments to pass to the run_after file.
 		public static bool password_confirm;   // Confirm password?
 		public static bool close_after; // Close after encrypting?
 		public static bool show_folder_after;   // Show folder in Explorer after encrypting?
@@ -58,6 +59,11 @@ namespace PDFEncrypt
 			x = Registry.GetValue(REG_KEY, "run_after_file", null);
 			if (x == null) { x = ""; }
 			run_after_file = (string)x;
+
+			// Run After arguments
+			x = Registry.GetValue(REG_KEY, "run_after_arguments", null);
+			if (x == null) { x = ""; }
+			run_after_arguments = (string)x;
 
 			// Require password confirmation
 			x = Registry.GetValue(REG_KEY, "password_confirm", 0);
@@ -160,6 +166,8 @@ namespace PDFEncrypt
 		{
 			Registry.SetValue(REG_KEY, "run_after", (object)run_after, RegistryValueKind.DWord);
 			Registry.SetValue(REG_KEY, "run_after_file", (object)run_after_file, RegistryValueKind.String);
+			Registry.SetValue(REG_KEY, "run_after_arguments", (object)run_after_arguments, RegistryValueKind.String);
+
 			Registry.SetValue(REG_KEY, "password_confirm", (object)password_confirm, RegistryValueKind.DWord);
 			Registry.SetValue(REG_KEY, "close_after", (object)close_after, RegistryValueKind.DWord);
 			Registry.SetValue(REG_KEY, "show_folder_after", (object)show_folder_after, RegistryValueKind.DWord);
