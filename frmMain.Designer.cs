@@ -193,9 +193,9 @@
             this.lblPasswordLength.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.lblPasswordLength.Location = new System.Drawing.Point(25, 98);
             this.lblPasswordLength.Name = "lblPasswordLength";
-            this.lblPasswordLength.Size = new System.Drawing.Size(327, 16);
+            this.lblPasswordLength.Size = new System.Drawing.Size(413, 16);
             this.lblPasswordLength.TabIndex = 14;
-            this.lblPasswordLength.Text = "Passwords longer than 32 characters will be truncated.";
+            this.lblPasswordLength.Text = "Passwords longer than 32 characters will be truncated per PDF spec.";
             this.lblPasswordLength.Visible = false;
             // 
             // lblCopied
@@ -333,16 +333,12 @@
 		private System.Windows.Forms.GroupBox groupBox1;
 		private System.Windows.Forms.Label label4;
 		private System.Windows.Forms.Button btnInputBrowse;
-		private System.Windows.Forms.TextBox txtInputFile;
 		private System.Windows.Forms.GroupBox groupBox2;
 		private System.Windows.Forms.Label label2;
 		private System.Windows.Forms.Button btnOutputBrowse;
-		private System.Windows.Forms.TextBox txtOutputFile;
 		private System.Windows.Forms.GroupBox groupBox3;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Button btnPasswordGenerate;
-		private System.Windows.Forms.TextBox txtPassword;
-		private System.Windows.Forms.Button btnEncrypt;
 		private System.Windows.Forms.Button btnClose;
 		private System.Windows.Forms.OpenFileDialog dlgOpen;
 		private System.Windows.Forms.SaveFileDialog dlgSave;
@@ -351,7 +347,11 @@
 		private System.Windows.Forms.Button btnSettings;
         private System.Windows.Forms.Label lblPasswordLength;
         private System.Windows.Forms.LinkLabel lnkPasswordOwner;
-        private System.Windows.Forms.Label lblOwnerPasswordSet;
+        public System.Windows.Forms.TextBox txtInputFile;
+        public System.Windows.Forms.TextBox txtOutputFile;
+        public System.Windows.Forms.TextBox txtPassword;
+        public System.Windows.Forms.Button btnEncrypt;
+        public System.Windows.Forms.Label lblOwnerPasswordSet;
     }
 }
 

@@ -128,14 +128,6 @@ namespace PDFEncrypt
 			System.Diagnostics.Process.Start("https://pdfencrypt.net");
 		}
 
-		private void label3_Click(object sender, EventArgs e)
-		{
 
-		}
-
-		private void cboEncryptionType_SelectedIndexChanged(object sender, EventArgs e)
-		{
-
-		}
-	}
+    }
 }

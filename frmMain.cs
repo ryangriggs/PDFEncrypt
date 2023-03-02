@@ -26,7 +26,9 @@ namespace PDFEncrypt
 		const int PW_LENGTH_MAX = 24;   // Maximum generated password length
 		const string PW_CHARS = "abcdefghijkmnpqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ23456789"; // List of characters to be used in random passwords
 
-		private string owner_password = "";	// The owner password, if any.
+		public string owner_password = "";  // The owner password, if any.
+		public bool encrypt_on_start = false;	// Allows encryption via command line without user interaction
+
 
 		public frmMain()
 		{
@@ -62,7 +64,14 @@ namespace PDFEncrypt
 			Settings.notify.Add(settingsChanged);
 
 			// Load settings from registry
-			Settings.load();			
+			Settings.load();		
+			
+			// If immediate run is enabled, click Run button (see command line options)
+			if (encrypt_on_start)
+            {
+				// Click the Encrypt button immediately.
+				btnEncrypt_Click(sender, e);
+            }
 		}
 
 		private void settingsChanged()
@@ -299,5 +308,7 @@ namespace PDFEncrypt
 			}
 			lblOwnerPasswordSet.Visible = (owner_password != "");
         }
+
+      
     }
 }
