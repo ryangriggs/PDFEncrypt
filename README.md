@@ -1,3 +1,5 @@
 # PDFEncrypt
 
-PDFEncrypt is a free, open-source .net 7 utility  for encrypting PDF files quickly and easily.
+PDFEncrypt is a user-friendly, open-source .net tool for Windows that swiftly encrypts PDF files at no cost.
+
+![Screenshot](./Documentation/PDFEncrypt%20Screenshot.png "Screenshot")
