@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="itext7" Version="7.1.8" />
+    <PackageReference Include="itext7" Version="7.2.5" />
   </ItemGroup>
 
 </Project>
