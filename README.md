@@ -16,7 +16,7 @@ Restrictions: you may not use the term "Official" or "Original" to designate for
 
 **The "PDFEncrypt" brand is a trademark of PDFEncrypt.net/Ryan Griggs and is not licensed under the AGPL.  If you wish to release a forked version of PDFEncrypt, you must rename it to avoid confusion with the official branch.**
 
-**The PDFEncrypt Logo is a trademark of, and copyrighted by, PDFEncrypt.net/Ryan Griggs and is not licensed under the AGPL. If you fork this project, you must create your own logo which is materially different from the official logo, to help reduce confusion between yours and the official/original version.**
+**The PDFEncrypt Logo is a trademark of, and copyrighted by, PDFEncrypt.net/Ryan Griggs and is not licensed under the AGPL. If you fork this project, you must create your own logo which is materially different from the official logo, to avoid confusion between yours and the official/original version.**
 
 
 # Build instructions
