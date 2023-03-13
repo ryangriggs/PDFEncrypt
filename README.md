@@ -14,16 +14,16 @@ Now available in the Microsoft Store!
 
 
 
-# License:
+# License
 
 If you fork this project, you may not use the term "Official" or "Original" to designate your fork and you must credit Ryan Griggs and PDFEncrypt.net both within the application and on any documentation and/or related website.
 
 **The PDFEncrypt Logo is copyrighted by PDFEncrypt/Ryan Griggs and may not be used on forks of this project without permission.  If you fork this project, you need to create your own logo that is materially different from the official logo, to help reduce confusion between yours and the official/original version.**
 
-License: AGPL
+Code License: AGPL
 
 
-# Build instructions:
+# Build instructions
 
 Install latest Visual Studio from (https://visualstudio.microsoft.com/)
 
