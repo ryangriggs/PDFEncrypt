@@ -5,9 +5,7 @@ This is the official, original version of PDFEncrypt by the original author, Rya
 
 Download Windows binaries from the official site: https://pdfencrypt.net
 
-Now available in the Microsoft Store!
-
-![[Microsoft Store Logo](https://user-images.githubusercontent.com/5854489/224773713-3271e1c0-6ced-4150-a971-a4f46bba5154.svg)](ms-windows-store://pdp/?productid=XP88VS20D2D7NF&cid=&mode=mini)
+[Now available in the Microsoft Store!](https://apps.microsoft.com/store/detail/pdfencrypt/XP88VS20D2D7NF)
 
 
 # License
