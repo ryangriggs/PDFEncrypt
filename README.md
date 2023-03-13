@@ -16,11 +16,12 @@ Now available in the Microsoft Store!
 
 # License
 
-If you fork this project, you may not use the term "Official" or "Original" to designate your fork and you must credit Ryan Griggs and PDFEncrypt.net both within the application and on any documentation and/or related website.
+The PDFEncrypt application and source code are licensed under the AGPL.  You may download, install, use, and distribute the PDFEncrypt application freely under the AGPL.  You may download, modify, fork, and distribute the PDFEncrypt source code under the AGPL.
 
-**The PDFEncrypt Logo is copyrighted by PDFEncrypt/Ryan Griggs and may not be used on forks of this project without permission.  If you fork this project, you need to create your own logo that is materially different from the official logo, to help reduce confusion between yours and the official/original version.**
+Restrictions: you may not use the term "Official" or "Original" to designate forks of this project, and forks must credit Ryan Griggs and PDFEncrypt.net both within the application and on any documentation and/or related websites.
 
-Code License: AGPL
+**The PDFEncrypt Logo is copyrighted by PDFEncrypt/Ryan Griggs and is not licensed under the AGPL.  This logo may only be used with written permission.  If you fork this project, you must create your own logo which is materially different from the official logo, to help reduce confusion between yours and the official/original version.**
+
 
 
 # Build instructions
