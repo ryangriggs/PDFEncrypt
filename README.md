@@ -1,7 +1,7 @@
 # PDFEncrypt
 PDFEncrypt is a free, open-source utility written in C# (.net 4.7) for encrypting PDF files quickly and easily.  
 
-This is the official, original version of PDFEncrypt by the original author, Ryan Griggs.  Please note that all other versions are forks by other authors and may not respect or comply with the core principles of the original author.
+This is the official, original version of PDFEncrypt by the original author, Ryan Griggs.  Please note that all other versions are forks and may not respect or comply with the core principles of privacy and freedom held by the original author.
 
 If you fork this project, you may not use the term "Official" or "Original" to designate your fork and you must credit Ryan Griggs and PDFEncrypt.net both within the application and on any documentation and/or related website.
 
