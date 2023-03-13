@@ -7,9 +7,7 @@ Download Windows binaries from the official site: https://pdfencrypt.net
 
 Now available in the Microsoft Store!
 
-<a href="ms-windows-store://pdp/?productid=XP88VS20D2D7NF&cid=&mode=mini">
-	<img src="https://get.microsoft.com/images/en-US%20dark.svg" width="200" />
-</a>
+![[Microsoft Store](https://get.microsoft.com/images/en-US%20dark.svg)](ms-windows-store://pdp/?productid=XP88VS20D2D7NF&cid=&mode=mini)
 
 
 
