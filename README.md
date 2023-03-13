@@ -5,7 +5,7 @@ This is the official, original version of PDFEncrypt by the original author, Rya
 
 If you fork this project, you may not use the term "Official" or "Original" to designate your fork and you must credit Ryan Griggs and PDFEncrypt.net both within the application and on any documentation and/or related website.
 
-**The PDFEncrypt Logo is copyrighted by PDFEncrypt/Ryan Griggs and may not be reproduced on forks of this project without permission.  If you fork this project, you need to create your own logo that is materially different from the official logo, to help reduce confusion between yours and the official fork.**
+**The PDFEncrypt Logo is copyrighted by PDFEncrypt/Ryan Griggs and may not be reproduced on forks of this project without permission.  If you fork this project, you need to create your own logo which is materially different from the official logo, to help reduce confusion between yours and the official fork.**
 
 License: AGPL
 Main website: https://PDFEncrypt.net
