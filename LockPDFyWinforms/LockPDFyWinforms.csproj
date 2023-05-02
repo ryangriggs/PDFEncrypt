@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net7.0-windows</TargetFramework>
+		<OutputType>WinExe</OutputType>
+		<RootNamespace>LockPDFyWinforms</RootNamespace>
+		<AssemblyName>LockPDFy Windows</AssemblyName>
+		<MapFileExtensions>true</MapFileExtensions>
+		<UseApplicationTrust>false</UseApplicationTrust>
+		<BootstrapperEnabled>true</BootstrapperEnabled>
+		<UseWindowsForms>True</UseWindowsForms>
+		<ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+		<AssemblyTitle>LockPDFy</AssemblyTitle>
+		<Description>LockPDFy - swiftly encrypts PDF files</Description>
+		<Company>Codeuctivity</Company>
+		<Product>LockPDFy</Product>
+	</PropertyGroup>
+	<PropertyGroup>
+		<ApplicationIcon>logo.ico</ApplicationIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Windows.Compatibility" Version="7.0.1" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\LockPDFy\LockPDFy.csproj" />
+	</ItemGroup>
+</Project>
