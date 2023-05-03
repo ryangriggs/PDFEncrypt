@@ -1,0 +1,21 @@
+on:
+  pull_request:
+    types: [labeled]
+
+name: "Translations Sync"
+
+jobs:
+  push-strings-to-transifex:
+    if: github.event.label.name == 'Ready for translations'
+    name: push-strings-to-transifex
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "Checkout"
+        uses: actions/checkout@master
+
+      - name: "Run action"
+        with:
+            TX_TOKEN: ${{ secrets.TX_TOKEN }}
+        uses: docker://sergioisidoro/github-transifex-action:v0.2.0

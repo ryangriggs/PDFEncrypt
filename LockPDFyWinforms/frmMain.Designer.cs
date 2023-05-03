@@ -29,306 +29,196 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
-            groupBox1 = new System.Windows.Forms.GroupBox();
-            label4 = new System.Windows.Forms.Label();
-            btnInputBrowse = new System.Windows.Forms.Button();
-            txtInputFile = new System.Windows.Forms.TextBox();
-            groupBox2 = new System.Windows.Forms.GroupBox();
-            label2 = new System.Windows.Forms.Label();
-            btnOutputBrowse = new System.Windows.Forms.Button();
-            txtOutputFile = new System.Windows.Forms.TextBox();
-            groupBox3 = new System.Windows.Forms.GroupBox();
-            lblOwnerPasswordSet = new System.Windows.Forms.Label();
-            lnkPasswordOwner = new System.Windows.Forms.LinkLabel();
-            lblPasswordLength = new System.Windows.Forms.Label();
-            lblCopied = new System.Windows.Forms.Label();
-            btnCopy = new System.Windows.Forms.Button();
-            label3 = new System.Windows.Forms.Label();
-            btnPasswordGenerate = new System.Windows.Forms.Button();
-            txtPassword = new System.Windows.Forms.TextBox();
-            btnEncrypt = new System.Windows.Forms.Button();
-            btnClose = new System.Windows.Forms.Button();
-            dlgOpen = new System.Windows.Forms.OpenFileDialog();
-            dlgSave = new System.Windows.Forms.SaveFileDialog();
-            btnSettings = new System.Windows.Forms.Button();
-            groupBox1.SuspendLayout();
-            groupBox2.SuspendLayout();
-            groupBox3.SuspendLayout();
-            SuspendLayout();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.btnInputBrowse = new System.Windows.Forms.Button();
+            this.txtInputFile = new System.Windows.Forms.TextBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnOutputBrowse = new System.Windows.Forms.Button();
+            this.txtOutputFile = new System.Windows.Forms.TextBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.lblOwnerPasswordSet = new System.Windows.Forms.Label();
+            this.lnkPasswordOwner = new System.Windows.Forms.LinkLabel();
+            this.lblPasswordLength = new System.Windows.Forms.Label();
+            this.lblCopied = new System.Windows.Forms.Label();
+            this.btnCopy = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.btnPasswordGenerate = new System.Windows.Forms.Button();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.btnEncrypt = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.dlgOpen = new System.Windows.Forms.OpenFileDialog();
+            this.dlgSave = new System.Windows.Forms.SaveFileDialog();
+            this.btnSettings = new System.Windows.Forms.Button();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.SuspendLayout();
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(label4);
-            groupBox1.Controls.Add(btnInputBrowse);
-            groupBox1.Controls.Add(txtInputFile);
-            groupBox1.Location = new System.Drawing.Point(10, 11);
-            groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            groupBox1.Size = new System.Drawing.Size(542, 115);
-            groupBox1.TabIndex = 8;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "Source File";
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.btnInputBrowse);
+            this.groupBox1.Controls.Add(this.txtInputFile);
+            resources.ApplyResources(this.groupBox1, "groupBox1");
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.TabStop = false;
             // 
             // label4
             // 
-            label4.AutoSize = true;
-            label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            label4.Location = new System.Drawing.Point(20, 23);
-            label4.Name = "label4";
-            label4.Size = new System.Drawing.Size(211, 24);
-            label4.TabIndex = 11;
-            label4.Text = "Choose a file to encrypt:";
+            resources.ApplyResources(this.label4, "label4");
+            this.label4.Name = "label4";
             // 
             // btnInputBrowse
             // 
-            btnInputBrowse.Location = new System.Drawing.Point(487, 58);
-            btnInputBrowse.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            btnInputBrowse.Name = "btnInputBrowse";
-            btnInputBrowse.Size = new System.Drawing.Size(42, 32);
-            btnInputBrowse.TabIndex = 10;
-            btnInputBrowse.Text = "...";
-            btnInputBrowse.UseVisualStyleBackColor = true;
-            btnInputBrowse.Click += btnInputBrowse_Click;
+            resources.ApplyResources(this.btnInputBrowse, "btnInputBrowse");
+            this.btnInputBrowse.Name = "btnInputBrowse";
+            this.btnInputBrowse.UseVisualStyleBackColor = true;
             // 
             // txtInputFile
             // 
-            txtInputFile.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            txtInputFile.Location = new System.Drawing.Point(24, 58);
-            txtInputFile.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            txtInputFile.Name = "txtInputFile";
-            txtInputFile.Size = new System.Drawing.Size(448, 28);
-            txtInputFile.TabIndex = 8;
+            resources.ApplyResources(this.txtInputFile, "txtInputFile");
+            this.txtInputFile.Name = "txtInputFile";
             // 
             // groupBox2
             // 
-            groupBox2.Controls.Add(label2);
-            groupBox2.Controls.Add(btnOutputBrowse);
-            groupBox2.Controls.Add(txtOutputFile);
-            groupBox2.Location = new System.Drawing.Point(10, 133);
-            groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            groupBox2.Size = new System.Drawing.Size(542, 115);
-            groupBox2.TabIndex = 12;
-            groupBox2.TabStop = false;
-            groupBox2.Text = "Destination File";
+            this.groupBox2.Controls.Add(this.label2);
+            this.groupBox2.Controls.Add(this.btnOutputBrowse);
+            this.groupBox2.Controls.Add(this.txtOutputFile);
+            resources.ApplyResources(this.groupBox2, "groupBox2");
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.TabStop = false;
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            label2.Location = new System.Drawing.Point(20, 23);
-            label2.Name = "label2";
-            label2.Size = new System.Drawing.Size(365, 24);
-            label2.TabIndex = 11;
-            label2.Text = "Choose a destination for the encrypted file:";
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
             // 
             // btnOutputBrowse
             // 
-            btnOutputBrowse.Location = new System.Drawing.Point(487, 58);
-            btnOutputBrowse.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            btnOutputBrowse.Name = "btnOutputBrowse";
-            btnOutputBrowse.Size = new System.Drawing.Size(42, 32);
-            btnOutputBrowse.TabIndex = 10;
-            btnOutputBrowse.Text = "...";
-            btnOutputBrowse.UseVisualStyleBackColor = true;
-            btnOutputBrowse.Click += btnOutputBrowse_Click;
+            resources.ApplyResources(this.btnOutputBrowse, "btnOutputBrowse");
+            this.btnOutputBrowse.Name = "btnOutputBrowse";
+            this.btnOutputBrowse.UseVisualStyleBackColor = true;
             // 
             // txtOutputFile
             // 
-            txtOutputFile.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            txtOutputFile.Location = new System.Drawing.Point(24, 58);
-            txtOutputFile.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            txtOutputFile.Name = "txtOutputFile";
-            txtOutputFile.Size = new System.Drawing.Size(448, 28);
-            txtOutputFile.TabIndex = 8;
+            resources.ApplyResources(this.txtOutputFile, "txtOutputFile");
+            this.txtOutputFile.Name = "txtOutputFile";
             // 
             // groupBox3
             // 
-            groupBox3.Controls.Add(lblOwnerPasswordSet);
-            groupBox3.Controls.Add(lnkPasswordOwner);
-            groupBox3.Controls.Add(lblPasswordLength);
-            groupBox3.Controls.Add(lblCopied);
-            groupBox3.Controls.Add(btnCopy);
-            groupBox3.Controls.Add(label3);
-            groupBox3.Controls.Add(btnPasswordGenerate);
-            groupBox3.Controls.Add(txtPassword);
-            groupBox3.Location = new System.Drawing.Point(11, 253);
-            groupBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            groupBox3.Name = "groupBox3";
-            groupBox3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            groupBox3.Size = new System.Drawing.Size(542, 143);
-            groupBox3.TabIndex = 13;
-            groupBox3.TabStop = false;
-            groupBox3.Text = "Password";
+            this.groupBox3.Controls.Add(this.lblOwnerPasswordSet);
+            this.groupBox3.Controls.Add(this.lnkPasswordOwner);
+            this.groupBox3.Controls.Add(this.lblPasswordLength);
+            this.groupBox3.Controls.Add(this.lblCopied);
+            this.groupBox3.Controls.Add(this.btnCopy);
+            this.groupBox3.Controls.Add(this.label3);
+            this.groupBox3.Controls.Add(this.btnPasswordGenerate);
+            this.groupBox3.Controls.Add(this.txtPassword);
+            resources.ApplyResources(this.groupBox3, "groupBox3");
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.TabStop = false;
             // 
             // lblOwnerPasswordSet
             // 
-            lblOwnerPasswordSet.AutoSize = true;
-            lblOwnerPasswordSet.ForeColor = System.Drawing.Color.FromArgb(0, 192, 192);
-            lblOwnerPasswordSet.Location = new System.Drawing.Point(181, 115);
-            lblOwnerPasswordSet.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            lblOwnerPasswordSet.Name = "lblOwnerPasswordSet";
-            lblOwnerPasswordSet.Size = new System.Drawing.Size(116, 15);
-            lblOwnerPasswordSet.TabIndex = 16;
-            lblOwnerPasswordSet.Text = "Owner password set.";
-            lblOwnerPasswordSet.Visible = false;
+            resources.ApplyResources(this.lblOwnerPasswordSet, "lblOwnerPasswordSet");
+            this.lblOwnerPasswordSet.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.lblOwnerPasswordSet.Name = "lblOwnerPasswordSet";
             // 
             // lnkPasswordOwner
             // 
-            lnkPasswordOwner.AutoSize = true;
-            lnkPasswordOwner.Location = new System.Drawing.Point(32, 115);
-            lnkPasswordOwner.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            lnkPasswordOwner.Name = "lnkPasswordOwner";
-            lnkPasswordOwner.Size = new System.Drawing.Size(114, 15);
-            lnkPasswordOwner.TabIndex = 15;
-            lnkPasswordOwner.TabStop = true;
-            lnkPasswordOwner.Text = "Set Owner Password";
-            lnkPasswordOwner.LinkClicked += lnkPasswordOwner_LinkClicked;
+            resources.ApplyResources(this.lnkPasswordOwner, "lnkPasswordOwner");
+            this.lnkPasswordOwner.Name = "lnkPasswordOwner";
+            this.lnkPasswordOwner.TabStop = true;
             // 
             // lblPasswordLength
             // 
-            lblPasswordLength.AutoSize = true;
-            lblPasswordLength.ForeColor = System.Drawing.Color.FromArgb(255, 128, 0);
-            lblPasswordLength.Location = new System.Drawing.Point(22, 92);
-            lblPasswordLength.Name = "lblPasswordLength";
-            lblPasswordLength.Size = new System.Drawing.Size(292, 15);
-            lblPasswordLength.TabIndex = 14;
-            lblPasswordLength.Text = "Passwords longer than 32 characters will be truncated.";
-            lblPasswordLength.Visible = false;
+            resources.ApplyResources(this.lblPasswordLength, "lblPasswordLength");
+            this.lblPasswordLength.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.lblPasswordLength.Name = "lblPasswordLength";
             // 
             // lblCopied
             // 
-            lblCopied.AutoSize = true;
-            lblCopied.ForeColor = System.Drawing.Color.Green;
-            lblCopied.Location = new System.Drawing.Point(400, 92);
-            lblCopied.Name = "lblCopied";
-            lblCopied.Size = new System.Drawing.Size(115, 15);
-            lblCopied.TabIndex = 13;
-            lblCopied.Text = "Copied to clipboard.";
-            lblCopied.Visible = false;
+            resources.ApplyResources(this.lblCopied, "lblCopied");
+            this.lblCopied.ForeColor = System.Drawing.Color.Green;
+            this.lblCopied.Name = "lblCopied";
             // 
             // btnCopy
             // 
-            btnCopy.Location = new System.Drawing.Point(466, 58);
-            btnCopy.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            btnCopy.Name = "btnCopy";
-            btnCopy.Size = new System.Drawing.Size(60, 32);
-            btnCopy.TabIndex = 12;
-            btnCopy.Text = "Copy";
-            btnCopy.UseVisualStyleBackColor = true;
-            btnCopy.Click += btnCopy_Click;
+            resources.ApplyResources(this.btnCopy, "btnCopy");
+            this.btnCopy.Name = "btnCopy";
+            this.btnCopy.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
-            label3.AutoSize = true;
-            label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            label3.Location = new System.Drawing.Point(20, 23);
-            label3.Name = "label3";
-            label3.Size = new System.Drawing.Size(393, 24);
-            label3.TabIndex = 11;
-            label3.Text = "Specify a password (required to open the file):";
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.Name = "label3";
             // 
             // btnPasswordGenerate
             // 
-            btnPasswordGenerate.Location = new System.Drawing.Point(388, 58);
-            btnPasswordGenerate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            btnPasswordGenerate.Name = "btnPasswordGenerate";
-            btnPasswordGenerate.Size = new System.Drawing.Size(74, 32);
-            btnPasswordGenerate.TabIndex = 10;
-            btnPasswordGenerate.Text = "Generate";
-            btnPasswordGenerate.UseVisualStyleBackColor = true;
-            btnPasswordGenerate.Click += btnPasswordGenerate_Click;
+            resources.ApplyResources(this.btnPasswordGenerate, "btnPasswordGenerate");
+            this.btnPasswordGenerate.Name = "btnPasswordGenerate";
+            this.btnPasswordGenerate.UseVisualStyleBackColor = true;
             // 
             // txtPassword
             // 
-            txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            txtPassword.Location = new System.Drawing.Point(24, 58);
-            txtPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            txtPassword.Name = "txtPassword";
-            txtPassword.Size = new System.Drawing.Size(358, 28);
-            txtPassword.TabIndex = 8;
-            txtPassword.TextChanged += txtPassword_TextChanged;
-            txtPassword.KeyDown += txtPassword_KeyDown;
+            resources.ApplyResources(this.txtPassword, "txtPassword");
+            this.txtPassword.Name = "txtPassword";
             // 
             // btnEncrypt
             // 
-            btnEncrypt.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            btnEncrypt.Location = new System.Drawing.Point(416, 418);
-            btnEncrypt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            btnEncrypt.Name = "btnEncrypt";
-            btnEncrypt.Size = new System.Drawing.Size(130, 46);
-            btnEncrypt.TabIndex = 14;
-            btnEncrypt.Text = "Encrypt";
-            btnEncrypt.UseVisualStyleBackColor = true;
-            btnEncrypt.Click += btnEncrypt_Click;
+            resources.ApplyResources(this.btnEncrypt, "btnEncrypt");
+            this.btnEncrypt.Name = "btnEncrypt";
+            this.btnEncrypt.UseVisualStyleBackColor = true;
             // 
             // btnClose
             // 
-            btnClose.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            btnClose.Location = new System.Drawing.Point(265, 418);
-            btnClose.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            btnClose.Name = "btnClose";
-            btnClose.Size = new System.Drawing.Size(130, 46);
-            btnClose.TabIndex = 15;
-            btnClose.Text = "Close";
-            btnClose.UseVisualStyleBackColor = true;
-            btnClose.Click += btnClose_Click;
+            this.btnClose.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            resources.ApplyResources(this.btnClose, "btnClose");
+            this.btnClose.Name = "btnClose";
+            this.btnClose.UseVisualStyleBackColor = true;
             // 
             // dlgOpen
             // 
-            dlgOpen.Filter = "PDF Files|*.pdf|All files|*.*";
+            resources.ApplyResources(this.dlgOpen, "dlgOpen");
             // 
             // dlgSave
             // 
-            dlgSave.Filter = "PDF Files|*.pdf|All files|*.*";
-            dlgSave.OverwritePrompt = false;
+            resources.ApplyResources(this.dlgSave, "dlgSave");
+            this.dlgSave.OverwritePrompt = false;
             // 
             // btnSettings
             // 
-            btnSettings.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            btnSettings.Location = new System.Drawing.Point(13, 431);
-            btnSettings.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            btnSettings.Name = "btnSettings";
-            btnSettings.Size = new System.Drawing.Size(91, 32);
-            btnSettings.TabIndex = 16;
-            btnSettings.Text = "Settings...";
-            btnSettings.UseVisualStyleBackColor = true;
-            btnSettings.Click += btnSettings_Click;
+            resources.ApplyResources(this.btnSettings, "btnSettings");
+            this.btnSettings.Name = "btnSettings";
+            this.btnSettings.UseVisualStyleBackColor = true;
             // 
             // frmMain
             // 
-            AcceptButton = btnEncrypt;
-            AllowDrop = true;
-            AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            CancelButton = btnClose;
-            ClientSize = new System.Drawing.Size(561, 472);
-            Controls.Add(btnSettings);
-            Controls.Add(btnClose);
-            Controls.Add(btnEncrypt);
-            Controls.Add(groupBox3);
-            Controls.Add(groupBox2);
-            Controls.Add(groupBox1);
-            FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            Icon = (System.Drawing.Icon)resources.GetObject("$this.Icon");
-            Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            MaximizeBox = false;
-            MinimizeBox = false;
-            Name = "frmMain";
-            Text = "LockPDFy - swiftly encrypts PDF files";
-            Load += frmMain_Load;
-            DragDrop += frmMain_DragDrop;
-            DragOver += frmMain_DragOver;
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
-            groupBox2.ResumeLayout(false);
-            groupBox2.PerformLayout();
-            groupBox3.ResumeLayout(false);
-            groupBox3.PerformLayout();
-            ResumeLayout(false);
+            this.AcceptButton = this.btnEncrypt;
+            this.AllowDrop = true;
+            resources.ApplyResources(this, "$this");
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.btnClose;
+            this.Controls.Add(this.btnSettings);
+            this.Controls.Add(this.btnClose);
+            this.Controls.Add(this.btnEncrypt);
+            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "frmMain";
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            this.ResumeLayout(false);
+
         }
 
         #endregion
