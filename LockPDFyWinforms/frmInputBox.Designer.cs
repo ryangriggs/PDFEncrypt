@@ -28,78 +28,55 @@
         /// </summary>
         private void InitializeComponent()
         {
-            btnOK = new System.Windows.Forms.Button();
-            btnCancel = new System.Windows.Forms.Button();
-            txtInput = new System.Windows.Forms.TextBox();
-            lblPrompt = new System.Windows.Forms.TextBox();
-            SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmInputBox));
+            this.btnOK = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.txtInput = new System.Windows.Forms.TextBox();
+            this.lblPrompt = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
             // 
             // btnOK
             // 
-            btnOK.Location = new System.Drawing.Point(394, 12);
-            btnOK.Margin = new System.Windows.Forms.Padding(2);
-            btnOK.Name = "btnOK";
-            btnOK.Size = new System.Drawing.Size(65, 32);
-            btnOK.TabIndex = 0;
-            btnOK.Text = "OK";
-            btnOK.UseVisualStyleBackColor = true;
-            btnOK.Click += btnOK_Click;
+            resources.ApplyResources(this.btnOK, "btnOK");
+            this.btnOK.Name = "btnOK";
+            this.btnOK.UseVisualStyleBackColor = true;
             // 
             // btnCancel
             // 
-            btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            btnCancel.Location = new System.Drawing.Point(394, 48);
-            btnCancel.Margin = new System.Windows.Forms.Padding(2);
-            btnCancel.Name = "btnCancel";
-            btnCancel.Size = new System.Drawing.Size(65, 32);
-            btnCancel.TabIndex = 1;
-            btnCancel.Text = "Cancel";
-            btnCancel.UseVisualStyleBackColor = true;
-            btnCancel.Click += btnCancel_Click;
+            this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            resources.ApplyResources(this.btnCancel, "btnCancel");
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
             // 
             // txtInput
             // 
-            txtInput.Location = new System.Drawing.Point(11, 122);
-            txtInput.Margin = new System.Windows.Forms.Padding(2);
-            txtInput.Name = "txtInput";
-            txtInput.Size = new System.Drawing.Size(366, 23);
-            txtInput.TabIndex = 3;
+            resources.ApplyResources(this.txtInput, "txtInput");
+            this.txtInput.Name = "txtInput";
             // 
             // lblPrompt
             // 
-            lblPrompt.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            lblPrompt.Location = new System.Drawing.Point(13, 12);
-            lblPrompt.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            lblPrompt.Multiline = true;
-            lblPrompt.Name = "lblPrompt";
-            lblPrompt.ReadOnly = true;
-            lblPrompt.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            lblPrompt.Size = new System.Drawing.Size(364, 105);
-            lblPrompt.TabIndex = 4;
-            lblPrompt.Text = "prompt";
+            this.lblPrompt.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.lblPrompt, "lblPrompt");
+            this.lblPrompt.Name = "lblPrompt";
+            this.lblPrompt.ReadOnly = true;
             // 
             // frmInputBox
             // 
-            AcceptButton = btnOK;
-            AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            CancelButton = btnCancel;
-            ClientSize = new System.Drawing.Size(477, 155);
-            Controls.Add(lblPrompt);
-            Controls.Add(txtInput);
-            Controls.Add(btnCancel);
-            Controls.Add(btnOK);
-            FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            Margin = new System.Windows.Forms.Padding(2);
-            MaximizeBox = false;
-            MinimizeBox = false;
-            Name = "frmInputBox";
-            StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            Text = "Title";
-            Load += frmInputBox_Load;
-            Shown += frmInputBox_Shown;
-            ResumeLayout(false);
-            PerformLayout();
+            this.AcceptButton = this.btnOK;
+            resources.ApplyResources(this, "$this");
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.btnCancel;
+            this.Controls.Add(this.lblPrompt);
+            this.Controls.Add(this.txtInput);
+            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.btnOK);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "frmInputBox";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
