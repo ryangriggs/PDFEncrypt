@@ -1,4 +1,64 @@
-﻿<root>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing"">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
     <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
@@ -57,23 +117,86 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnInputBrowse.Name" xml:space="preserve">
+    <value>btnInputBrowse</value>
+  </data>
+  <data name="&gt;&gt;btnInputBrowse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnInputBrowse.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;btnInputBrowse.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtInputFile.Name" xml:space="preserve">
+    <value>txtInputFile</value>
+  </data>
+  <data name="&gt;&gt;txtInputFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtInputFile.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtInputFile.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 5</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>542, 115</value>
+  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Source File</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="label4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14pt</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 38</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>20, 23</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>319, 32</value>
+    <value>211, 24</value>
   </data>
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -94,13 +217,13 @@
     <value>0</value>
   </data>
   <data name="btnInputBrowse.Location" type="System.Drawing.Point, System.Drawing">
-    <value>696, 97</value>
+    <value>487, 58</value>
   </data>
   <data name="btnInputBrowse.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="btnInputBrowse.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 53</value>
+    <value>42, 32</value>
   </data>
   <data name="btnInputBrowse.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -124,13 +247,13 @@
     <value>Microsoft Sans Serif, 13.8pt</value>
   </data>
   <data name="txtInputFile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 97</value>
+    <value>24, 58</value>
   </data>
   <data name="txtInputFile.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="txtInputFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>638, 39</value>
+    <value>448, 28</value>
   </data>
   <data name="txtInputFile.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -147,35 +270,71 @@
   <data name="&gt;&gt;txtInputFile.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 18</value>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
   </data>
-  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupBox2</value>
   </data>
-  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>774, 192</value>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="&gt;&gt;btnOutputBrowse.Name" xml:space="preserve">
+    <value>btnOutputBrowse</value>
   </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>Source File</value>
+  <data name="&gt;&gt;btnOutputBrowse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
-    <value>groupBox1</value>
+  <data name="&gt;&gt;btnOutputBrowse.Parent" xml:space="preserve">
+    <value>groupBox2</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;btnOutputBrowse.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtOutputFile.Name" xml:space="preserve">
+    <value>txtOutputFile</value>
+  </data>
+  <data name="&gt;&gt;txtOutputFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtOutputFile.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;txtOutputFile.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 127</value>
+  </data>
+  <data name="groupBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="groupBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>542, 115</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Destination File</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>tabPage1</value>
   </data>
-  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -184,13 +343,10 @@
     <value>Microsoft Sans Serif, 14pt</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 38</value>
-  </data>
-  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>20, 23</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>554, 32</value>
+    <value>365, 24</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -211,13 +367,13 @@
     <value>0</value>
   </data>
   <data name="btnOutputBrowse.Location" type="System.Drawing.Point, System.Drawing">
-    <value>696, 97</value>
+    <value>487, 58</value>
   </data>
   <data name="btnOutputBrowse.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="btnOutputBrowse.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 53</value>
+    <value>42, 32</value>
   </data>
   <data name="btnOutputBrowse.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -241,13 +397,13 @@
     <value>Microsoft Sans Serif, 13.8pt</value>
   </data>
   <data name="txtOutputFile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 97</value>
+    <value>24, 58</value>
   </data>
   <data name="txtOutputFile.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="txtOutputFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>638, 39</value>
+    <value>448, 28</value>
   </data>
   <data name="txtOutputFile.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -264,47 +420,143 @@
   <data name="&gt;&gt;txtOutputFile.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 222</value>
+  <data name="&gt;&gt;lblOwnerPasswordSet.Name" xml:space="preserve">
+    <value>lblOwnerPasswordSet</value>
   </data>
-  <data name="groupBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+  <data name="&gt;&gt;lblOwnerPasswordSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="groupBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+  <data name="&gt;&gt;lblOwnerPasswordSet.Parent" xml:space="preserve">
+    <value>groupBox3</value>
   </data>
-  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>774, 192</value>
+  <data name="&gt;&gt;lblOwnerPasswordSet.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+  <data name="&gt;&gt;lnkPasswordOwner.Name" xml:space="preserve">
+    <value>lnkPasswordOwner</value>
   </data>
-  <data name="groupBox2.Text" xml:space="preserve">
-    <value>Destination File</value>
+  <data name="&gt;&gt;lnkPasswordOwner.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
-    <value>groupBox2</value>
+  <data name="&gt;&gt;lnkPasswordOwner.Parent" xml:space="preserve">
+    <value>groupBox3</value>
   </data>
-  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+  <data name="&gt;&gt;lnkPasswordOwner.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblPasswordLength.Name" xml:space="preserve">
+    <value>lblPasswordLength</value>
+  </data>
+  <data name="&gt;&gt;lblPasswordLength.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPasswordLength.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;lblPasswordLength.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblCopied.Name" xml:space="preserve">
+    <value>lblCopied</value>
+  </data>
+  <data name="&gt;&gt;lblCopied.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCopied.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;lblCopied.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnCopy.Name" xml:space="preserve">
+    <value>btnCopy</value>
+  </data>
+  <data name="&gt;&gt;btnCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCopy.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;btnCopy.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnPasswordGenerate.Name" xml:space="preserve">
+    <value>btnPasswordGenerate</value>
+  </data>
+  <data name="&gt;&gt;btnPasswordGenerate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPasswordGenerate.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;btnPasswordGenerate.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txtPassword.Name" xml:space="preserve">
+    <value>txtPassword</value>
+  </data>
+  <data name="&gt;&gt;txtPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPassword.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;txtPassword.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 247</value>
+  </data>
+  <data name="groupBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="groupBox3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>542, 143</value>
+  </data>
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="groupBox3.Text" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>tabPage1</value>
   </data>
-  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
   <data name="lblOwnerPasswordSet.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="lblOwnerPasswordSet.Location" type="System.Drawing.Point, System.Drawing">
-    <value>259, 192</value>
+    <value>181, 115</value>
   </data>
   <data name="lblOwnerPasswordSet.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 0, 6, 0</value>
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="lblOwnerPasswordSet.Size" type="System.Drawing.Size, System.Drawing">
-    <value>178, 25</value>
+    <value>116, 15</value>
   </data>
   <data name="lblOwnerPasswordSet.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -331,13 +583,13 @@
     <value>True</value>
   </data>
   <data name="lnkPasswordOwner.Location" type="System.Drawing.Point, System.Drawing">
-    <value>46, 192</value>
+    <value>32, 115</value>
   </data>
   <data name="lnkPasswordOwner.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 0, 6, 0</value>
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="lnkPasswordOwner.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 25</value>
+    <value>114, 15</value>
   </data>
   <data name="lnkPasswordOwner.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -361,13 +613,10 @@
     <value>True</value>
   </data>
   <data name="lblPasswordLength.Location" type="System.Drawing.Point, System.Drawing">
-    <value>31, 153</value>
-  </data>
-  <data name="lblPasswordLength.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>22, 92</value>
   </data>
   <data name="lblPasswordLength.Size" type="System.Drawing.Size, System.Drawing">
-    <value>439, 25</value>
+    <value>292, 15</value>
   </data>
   <data name="lblPasswordLength.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -394,13 +643,10 @@
     <value>True</value>
   </data>
   <data name="lblCopied.Location" type="System.Drawing.Point, System.Drawing">
-    <value>571, 153</value>
-  </data>
-  <data name="lblCopied.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>400, 92</value>
   </data>
   <data name="lblCopied.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 25</value>
+    <value>115, 15</value>
   </data>
   <data name="lblCopied.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -424,13 +670,13 @@
     <value>3</value>
   </data>
   <data name="btnCopy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>666, 97</value>
+    <value>466, 58</value>
   </data>
   <data name="btnCopy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="btnCopy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 53</value>
+    <value>60, 32</value>
   </data>
   <data name="btnCopy.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -457,13 +703,10 @@
     <value>Microsoft Sans Serif, 14pt</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 38</value>
-  </data>
-  <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>20, 23</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>591, 32</value>
+    <value>393, 24</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -484,13 +727,13 @@
     <value>5</value>
   </data>
   <data name="btnPasswordGenerate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>554, 97</value>
+    <value>388, 58</value>
   </data>
   <data name="btnPasswordGenerate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="btnPasswordGenerate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>106, 53</value>
+    <value>74, 32</value>
   </data>
   <data name="btnPasswordGenerate.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -514,13 +757,13 @@
     <value>Microsoft Sans Serif, 13.8pt</value>
   </data>
   <data name="txtPassword.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 97</value>
+    <value>24, 58</value>
   </data>
   <data name="txtPassword.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="txtPassword.Size" type="System.Drawing.Size, System.Drawing">
-    <value>510, 39</value>
+    <value>358, 28</value>
   </data>
   <data name="txtPassword.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -537,47 +780,17 @@
   <data name="&gt;&gt;txtPassword.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 422</value>
-  </data>
-  <data name="groupBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
-  </data>
-  <data name="groupBox3.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
-  </data>
-  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>774, 238</value>
-  </data>
-  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="groupBox3.Text" xml:space="preserve">
-    <value>Password</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
-    <value>groupBox3</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
   <data name="btnEncrypt.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14pt</value>
   </data>
   <data name="btnEncrypt.Location" type="System.Drawing.Point, System.Drawing">
-    <value>594, 697</value>
+    <value>415, 393</value>
   </data>
   <data name="btnEncrypt.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="btnEncrypt.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 77</value>
+    <value>130, 46</value>
   </data>
   <data name="btnEncrypt.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -592,40 +805,10 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnEncrypt.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>tabPage1</value>
   </data>
   <data name="&gt;&gt;btnEncrypt.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="btnClose.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 14pt</value>
-  </data>
-  <data name="btnClose.Location" type="System.Drawing.Point, System.Drawing">
-    <value>379, 697</value>
-  </data>
-  <data name="btnClose.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
-  </data>
-  <data name="btnClose.Size" type="System.Drawing.Size, System.Drawing">
-    <value>186, 77</value>
-  </data>
-  <data name="btnClose.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="btnClose.Text" xml:space="preserve">
-    <value>Close</value>
-  </data>
-  <data name="&gt;&gt;btnClose.Name" xml:space="preserve">
-    <value>btnClose</value>
-  </data>
-  <data name="&gt;&gt;btnClose.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnClose.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnClose.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <metadata name="dlgOpen.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -643,13 +826,13 @@
     <value>Microsoft Sans Serif, 7.8pt</value>
   </data>
   <data name="btnSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 718</value>
+    <value>12, 406</value>
   </data>
   <data name="btnSettings.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="btnSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 53</value>
+    <value>91, 32</value>
   </data>
   <data name="btnSettings.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -664,19 +847,674 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnSettings.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>tabPage1</value>
   </data>
   <data name="&gt;&gt;btnSettings.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabControl.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>561, 472</value>
+  </data>
+  <data name="tabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 24</value>
+  </data>
+  <data name="tabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>553, 444</value>
+  </data>
+  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Encrypt</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;labelPasswordWrong.Name" xml:space="preserve">
+    <value>labelPasswordWrong</value>
+  </data>
+  <data name="&gt;&gt;labelPasswordWrong.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPasswordWrong.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;labelPasswordWrong.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Name" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;buttonDecrypt.Name" xml:space="preserve">
+    <value>buttonDecrypt</value>
+  </data>
+  <data name="&gt;&gt;buttonDecrypt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonDecrypt.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;buttonDecrypt.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;groupBox6.Name" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;groupBox6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox6.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;groupBox6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 24</value>
+  </data>
+  <data name="tabPage2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>553, 444</value>
+  </data>
+  <data name="tabPage2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Decrypt</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;buttonInputBrowse.Name" xml:space="preserve">
+    <value>buttonInputBrowse</value>
+  </data>
+  <data name="&gt;&gt;buttonInputBrowse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonInputBrowse.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;buttonInputBrowse.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;textBoxInputFilePathDecrypt.Name" xml:space="preserve">
+    <value>textBoxInputFilePathDecrypt</value>
+  </data>
+  <data name="&gt;&gt;textBoxInputFilePathDecrypt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxInputFilePathDecrypt.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;textBoxInputFilePathDecrypt.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="groupBox4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="groupBox4.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>542, 115</value>
+  </data>
+  <data name="groupBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Source File</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Name" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;groupBox4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 23</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 24</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Choose a file to dencrypt:</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonInputBrowse.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonInputBrowse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>487, 58</value>
+  </data>
+  <data name="buttonInputBrowse.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="buttonInputBrowse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 32</value>
+  </data>
+  <data name="buttonInputBrowse.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="buttonInputBrowse.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;buttonInputBrowse.Name" xml:space="preserve">
+    <value>buttonInputBrowse</value>
+  </data>
+  <data name="&gt;&gt;buttonInputBrowse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonInputBrowse.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;buttonInputBrowse.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="textBoxInputFilePathDecrypt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="textBoxInputFilePathDecrypt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 58</value>
+  </data>
+  <data name="textBoxInputFilePathDecrypt.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="textBoxInputFilePathDecrypt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>448, 28</value>
+  </data>
+  <data name="textBoxInputFilePathDecrypt.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;textBoxInputFilePathDecrypt.Name" xml:space="preserve">
+    <value>textBoxInputFilePathDecrypt</value>
+  </data>
+  <data name="&gt;&gt;textBoxInputFilePathDecrypt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxInputFilePathDecrypt.Parent" xml:space="preserve">
+    <value>groupBox4</value>
+  </data>
+  <data name="&gt;&gt;textBoxInputFilePathDecrypt.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;buttonOutputBrowse.Name" xml:space="preserve">
+    <value>buttonOutputBrowse</value>
+  </data>
+  <data name="&gt;&gt;buttonOutputBrowse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonOutputBrowse.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;buttonOutputBrowse.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;textBoxOutputFilePathDecrypt.Name" xml:space="preserve">
+    <value>textBoxOutputFilePathDecrypt</value>
+  </data>
+  <data name="&gt;&gt;textBoxOutputFilePathDecrypt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxOutputFilePathDecrypt.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;textBoxOutputFilePathDecrypt.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="groupBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 127</value>
+  </data>
+  <data name="groupBox5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="groupBox5.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="groupBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>542, 115</value>
+  </data>
+  <data name="groupBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="groupBox5.Text" xml:space="preserve">
+    <value>Destination File</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Name" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;groupBox5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 23</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>376, 24</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Choose a destination for the dencrypted file:</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="buttonOutputBrowse.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonOutputBrowse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>487, 58</value>
+  </data>
+  <data name="buttonOutputBrowse.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="buttonOutputBrowse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 32</value>
+  </data>
+  <data name="buttonOutputBrowse.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="buttonOutputBrowse.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;buttonOutputBrowse.Name" xml:space="preserve">
+    <value>buttonOutputBrowse</value>
+  </data>
+  <data name="&gt;&gt;buttonOutputBrowse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonOutputBrowse.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;buttonOutputBrowse.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="textBoxOutputFilePathDecrypt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="textBoxOutputFilePathDecrypt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 58</value>
+  </data>
+  <data name="textBoxOutputFilePathDecrypt.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="textBoxOutputFilePathDecrypt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>448, 28</value>
+  </data>
+  <data name="textBoxOutputFilePathDecrypt.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;textBoxOutputFilePathDecrypt.Name" xml:space="preserve">
+    <value>textBoxOutputFilePathDecrypt</value>
+  </data>
+  <data name="&gt;&gt;textBoxOutputFilePathDecrypt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxOutputFilePathDecrypt.Parent" xml:space="preserve">
+    <value>groupBox5</value>
+  </data>
+  <data name="&gt;&gt;textBoxOutputFilePathDecrypt.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="buttonDecrypt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt</value>
+  </data>
+  <data name="buttonDecrypt.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buttonDecrypt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>414, 393</value>
+  </data>
+  <data name="buttonDecrypt.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="buttonDecrypt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 46</value>
+  </data>
+  <data name="buttonDecrypt.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="buttonDecrypt.Text" xml:space="preserve">
+    <value>Dencrypt</value>
+  </data>
+  <data name="&gt;&gt;buttonDecrypt.Name" xml:space="preserve">
+    <value>buttonDecrypt</value>
+  </data>
+  <data name="&gt;&gt;buttonDecrypt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonDecrypt.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;buttonDecrypt.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textBoxPasswordDecrypt.Name" xml:space="preserve">
+    <value>textBoxPasswordDecrypt</value>
+  </data>
+  <data name="&gt;&gt;textBoxPasswordDecrypt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxPasswordDecrypt.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;textBoxPasswordDecrypt.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 247</value>
+  </data>
+  <data name="groupBox6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="groupBox6.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="groupBox6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>542, 143</value>
+  </data>
+  <data name="groupBox6.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="groupBox6.Text" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="&gt;&gt;groupBox6.Name" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;groupBox6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox6.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;groupBox6.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt</value>
+  </data>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 23</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>393, 24</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Specify a password (required to open the file):</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="textBoxPasswordDecrypt.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="textBoxPasswordDecrypt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>24, 58</value>
+  </data>
+  <data name="textBoxPasswordDecrypt.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="textBoxPasswordDecrypt.Size" type="System.Drawing.Size, System.Drawing">
+    <value>447, 28</value>
+  </data>
+  <data name="textBoxPasswordDecrypt.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;textBoxPasswordDecrypt.Name" xml:space="preserve">
+    <value>textBoxPasswordDecrypt</value>
+  </data>
+  <data name="&gt;&gt;textBoxPasswordDecrypt.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBoxPasswordDecrypt.Parent" xml:space="preserve">
+    <value>groupBox6</value>
+  </data>
+  <data name="&gt;&gt;textBoxPasswordDecrypt.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="labelPasswordWrong.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelPasswordWrong.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="labelPasswordWrong.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 411</value>
+  </data>
+  <data name="labelPasswordWrong.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 15</value>
+  </data>
+  <data name="labelPasswordWrong.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="labelPasswordWrong.Text" xml:space="preserve">
+    <value>Password is not provided or wrong password provided.</value>
+  </data>
+  <data name="labelPasswordWrong.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;labelPasswordWrong.Name" xml:space="preserve">
+    <value>labelPasswordWrong</value>
+  </data>
+  <data name="&gt;&gt;labelPasswordWrong.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelPasswordWrong.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;labelPasswordWrong.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>10, 25</value>
+    <value>7, 15</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>801, 787</value>
+    <value>561, 472</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -801,7 +1639,7 @@
 </value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 3, 4, 3</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>LockPDFy - swiftly encrypts PDF files</value>

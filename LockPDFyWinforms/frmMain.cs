@@ -1,4 +1,5 @@
-﻿using iText.Kernel.Pdf;
+﻿using Codeuctivity;
+using iText.Kernel.Pdf;
 using System;
 using System.Diagnostics;
 using System.IO;
@@ -45,30 +46,14 @@ namespace PDFEncryptWinforms
 
         private void frmMain_Load(object sender, EventArgs e)
         {
-            // Add listener for updated settings
-            Settings.notify.Add(settingsChanged);
-
             // Load settings from registry
             Settings.load();
         }
 
-        private void settingsChanged()
-        {
-            // This function is executed when settings change.
-            Console.WriteLine("Settings changed notification.");
-        }
-
-        private void btnClose_Click(object sender, EventArgs e)
-        {
-            // Close the app
-            Close();
-        }
-
         private void btnPasswordGenerate_Click(object sender, EventArgs e)
         {
-            // Generate a random password
-            var rnd = new System.Random();  // Random number generator
-            int length = rnd.Next(PW_LENGTH_MIN, PW_LENGTH_MAX);    // Choose password length.
+            var rnd = new Random();
+            int length = rnd.Next(PW_LENGTH_MIN, PW_LENGTH_MAX);
             string result = "";
 
             // Pick 'length' characters from the allowed characters.
@@ -286,7 +271,9 @@ namespace PDFEncryptWinforms
                 if (File.Exists(file) && Path.GetExtension(file).Equals(".pdf", StringComparison.OrdinalIgnoreCase))
                 {
                     txtInputFile.Text = file;
+                    textBoxInputFilePathDecrypt.Text = file;
                     txtOutputFile.Text = GetFilenameWithSuffix(file);
+                    textBoxOutputFilePathDecrypt.Text = GetFilenameWithSuffix(file, "-decrypted");
                 }
             }
         }
@@ -297,6 +284,44 @@ namespace PDFEncryptWinforms
                 e.Effect = DragDropEffects.Link;
             else
                 e.Effect = DragDropEffects.None;
+        }
+
+        private void buttonDecrypt_Click(object sender, EventArgs e)
+        {
+            labelPasswordWrong.Visible = false;
+            var pdfEncrypt = new PDFEncrypt();
+
+            try
+            {
+                if (pdfEncrypt.TryDecryptPdf(textBoxInputFilePathDecrypt.Text, textBoxPasswordDecrypt.Text, textBoxOutputFilePathDecrypt.Text))
+                {
+                    return;
+                }
+
+                labelPasswordWrong.Visible = true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("An error occurred while processing the file: " + ex.Message);
+                Cursor.Current = Cursors.Default;
+                return;
+            }
+        }
+
+        private void buttonInputBrowse_Click(object sender, EventArgs e)
+        {
+            DialogResult result = dlgSave.ShowDialog();
+            if (result == DialogResult.Cancel) { return; }
+
+            textBoxInputFilePathDecrypt.Text = dlgSave.FileName;
+        }
+
+        private void buttonOutputBrowse_Click(object sender, EventArgs e)
+        {
+            DialogResult result = dlgSave.ShowDialog();
+            if (result == DialogResult.Cancel) { return; }
+
+            textBoxOutputFilePathDecrypt.Text = dlgSave.FileName;
         }
     }
 }
