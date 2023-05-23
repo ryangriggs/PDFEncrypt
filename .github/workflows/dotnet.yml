@@ -1,0 +1,27 @@
+name: .NET build and test
+env:
+  CURRENT_VERSION: 2.4.${{ github.run_number }}
+  LAST_COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [windows-latest]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 7.0.x
+      - name: Restore dependencies
+        run: dotnet restore
+      - name: Build
+        run: dotnet build --configuration Release --no-restore
+      - name: Test
+        run: dotnet test --no-build --verbosity normal --configuration Release

@@ -1,0 +1,38 @@
+version: 2
+updates:
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: weekly
+    rebase-strategy: auto
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: weekly
+    rebase-strategy: auto
+
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: weekly
+    rebase-strategy: auto
+
+  - package-ecosystem: "nuget"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    ignore:
+      - dependency-name: "nunit"
+      - dependency-name: "coverlet.collector"
+      - dependency-name: "SonarAnalyzer.CSharp"
+      - dependency-name: "AngleSharp"
+      - dependency-name: "Microsoft.NET.Test.Sdk"
+      - dependency-name: "Microsoft.AspNetCore.Mvc.Testing"
+      - dependency-name: "Moq"
+      - dependency-name: "xunit"
+      - dependency-name: "xunit.runner.visualstudio"
+      - dependency-name: "MSTest.TestAdapter"
+      - dependency-name: "MSTest.TestFramework"
+      - dependency-name: "Microsoft.AspNetCore.Identity.UI"
+      - dependency-name: "Microsoft.VisualStudio.Web.CodeGeneration.Design"
