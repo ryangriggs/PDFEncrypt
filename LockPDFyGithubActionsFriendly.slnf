@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "path": "LockPDFy.sln",
+    "projects": [
+      "LockPDFyTests\\LockPDFyTests.csproj",
+      "LockPDFyWinforms\\LockPDFyWinforms.csproj",
+      "LockPDFy\\LockPDFy.csproj"
+    ]
+  }
+}
