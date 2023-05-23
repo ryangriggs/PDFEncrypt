@@ -2,7 +2,7 @@
 
 [![Windows Store](https://img.shields.io/badge/Windows%20Store-LockPDFy-green?style=flat&logo=windows&link=https://www.microsoft.com/store/productId/9NC5KPZM2ZRM)](https://www.microsoft.com/store/productId/9NC5KPZM2ZRM)
 
-LockPDFy is a user-friendly, open-source and trade mark claim free .net tool for Windows that swiftly encrypts PDF files at no cost.
+LockPDFy is a user-friendly, open-source and trade mark claim free .net tool for Windows that swiftly encrypts and decrypts PDF files at no cost.
 
 ![Screenshot](./Documentation/LockPDFy%20Screenshot.png "Screenshot")
 

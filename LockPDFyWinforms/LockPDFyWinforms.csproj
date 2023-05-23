@@ -10,7 +10,7 @@
 		<UseWindowsForms>True</UseWindowsForms>
 		<ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
 		<AssemblyTitle>LockPDFy</AssemblyTitle>
-		<Description>LockPDFy - swiftly encrypts PDF files</Description>
+		<Description>LockPDFy - swiftly encrypts and decrypts PDF files</Description>
 		<Company>Codeuctivity</Company>
 		<Product>LockPDFy</Product>
 	</PropertyGroup>

@@ -9,7 +9,7 @@
   <Identity
     Name="40082Codeuctivity.CodeuctivityPDFEncrypt"
     Publisher="CN=29E2B333-2620-47F7-AD25-3AF0B9F5C17A"
-    Version="1.1.3.0" />
+    Version="1.1.9.0" />
 
   <Properties>
     <DisplayName>LockPDFy</DisplayName>
@@ -32,7 +32,7 @@
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements
         DisplayName="LockPDFy"
-        Description="LockPDFy is a user-friendly, open-source and trade mark claim free .net tool for Windows that swiftly encrypts PDF files at no cost."
+        Description="LockPDFy is a user-friendly, open-source and trade mark claim free .net tool for Windows that swiftly encrypts and decrypts  PDF files at no cost."
         BackgroundColor="transparent"
         Square150x150Logo="Images\Square150x150Logo.png"
         Square44x44Logo="Images\Square44x44Logo.png">

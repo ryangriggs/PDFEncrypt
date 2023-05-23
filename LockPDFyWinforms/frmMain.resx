@@ -1642,7 +1642,7 @@
     <value>3, 2, 3, 2</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>LockPDFy - swiftly encrypts PDF files</value>
+    <value>LockPDFy - swiftly encrypts and decrypts PDF files</value>
   </data>
   <data name="&gt;&gt;dlgOpen.Name" xml:space="preserve">
     <value>dlgOpen</value>
