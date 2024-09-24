@@ -1,5 +1,5 @@
 # PDFEncrypt
-PDFEncrypt is a free, open-source utility written in C# (.net 4.7) for encrypting/password protecting PDF files quickly and easily.  
+PDFEncrypt is a free, open-source Windows app written in C# (.net 4.7.2) for encrypting (password protecting) PDF files quickly and easily.  For privacy, the app does **not** upload the unencrypted files to a server: all encryption is performed on the local machine.
 
 This is the official, original version of PDFEncrypt by the original author, Ryan Griggs.  Please note that all other versions are forks and may not respect or comply with the core principles of privacy and freedom held by the original author.
 
@@ -26,3 +26,7 @@ Install latest Visual Studio from (https://visualstudio.microsoft.com/)
 Choose to install the  .net framework 4.7.2 developer pack during install
 
 Clone the repo and open the project in Visual Studio.
+
+Install any necessary libraries using nuGet.
+
+Build the Production version.
